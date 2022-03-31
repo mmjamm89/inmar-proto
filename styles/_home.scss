@@ -1,0 +1,91 @@
+// COLORES
+
+$color-1: #2f2d2d;
+$color-2: #FEF6ED;
+$color-3: white;
+
+// FONT
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color-2;
+    min-width: 500px;
+}
+
+#presentacion{
+    min-height: 700px;
+    background-color: $color-3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: $color-1;
+        font-family: $font-1;
+        font-size: 4em;
+    }
+}
+
+#cat_productos{
+    min-height: 400px;
+    background-color: $color-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: $color-2;        
+        font-size: 4em;
+        font-family: $font-1;
+    }
+}
+
+#cotizacion{
+    min-height: 200px;
+    background-color: $color-2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color: $color-1;
+        font-size: 4em;
+        font-family: $font-1;
+    }
+}
+
+//MEDIA QUERIES
+
+@media (max-width: 1050px){
+
+}
+
+@media (max-width: 1050px){
+    *{
+    }
+    
+    body{
+        background-color: $color-2;
+        min-width: 100px;
+    }
+    
+    #presentacion{
+        h1{
+        }
+    }
+    
+    #cat_productos{
+        h1{
+        }
+    }
+    
+    #cotizacion{
+        h1{
+        }
+    }
+}

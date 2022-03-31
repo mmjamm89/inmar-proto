@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INMAR - Servicios para la construcción</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <header>
+        <a href="#">
+            <svg id="logo" width="752" viewBox="0 0 752 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M181.812 36.953V131.666L106.344 36.953H91.6194V164H109.574V69.2444L185.043 163.958H199.767V36.953H181.812Z" fill="#2F2D2D"/>
+                <path d="M407.085 36.953H392.361L340.594 126.242L288.156 36.953H273.432V164H290.673V71.9566L336.147 148.532H344.412L389.844 71.4057L390.011 163.958H407.253L407.085 36.953Z" fill="#2F2D2D"/>
+                <path d="M536.627 36.953H518.841L461.872 163.958H480.372L494.216 132.217H561.043L574.886 163.958H593.764L536.627 36.953ZM500.508 117.682L527.65 55.4295L554.792 117.682H500.508Z" fill="#2F2D2D"/>
+                <path d="M722.173 121.326C731.025 118.19 737.863 113.147 742.645 106.282C747.427 99.3747 749.819 91.0264 749.819 81.2372C749.819 67.4222 745.162 56.616 735.807 48.7339C726.452 40.8941 713.658 36.953 697.381 36.953H648.341V164H666.296V125.352H697.381C699.311 125.352 701.911 125.225 705.267 124.971L732.409 164H752L722.173 121.326ZM696.835 109.884H666.296V52.7173H696.835C708.204 52.7173 716.888 55.1752 722.887 60.0486C728.885 64.9643 731.864 71.999 731.864 81.1948C731.864 90.3907 728.885 97.4677 722.887 102.426C716.888 107.426 708.246 109.884 696.835 109.884Z" fill="#2F2D2D"/>
+                <path d="M17.9547 0H0V18.1375H17.9547V0Z" fill="#2F2D2D"/>
+                <path d="M17.9547 37.0801H0V163.958H17.9547V37.0801Z" fill="#2F2D2D"/>
+                <path d="M751.874 0H0V18.1375H751.874V0Z" fill="#2F2D2D"/>
+                </svg>
+                
+        </a>
+        <ul>
+            <li><a href="/index.html">empresa</a></li>
+            <li><a href="/productos.html">productos</a></li>
+            <li><a href="/servicios.html">servicios</a></li>
+            <li><a href="/contacto.html">contacto</a></li>
+        </ul>
+    </header>
+
+    <section id="productos">
+
+        <div class="banner_productos">
+            <h1>NUESTROS PRODUCTOS</h1>
+        </div>
+
+        <div id="productos_container">
+
+            
+
+            <div id="filter">
+                <div class="filter">
+                    <h1 class="filter_title">Filtrar productos</h1>
+                    <div id="botones_filtro">
+                        <button class="btn" onclick="filterObj('all')">Mostrar todo</button>
+                        <button class="btn" onclick="filterObj('impermeabilizantes')">Impermeabilizantes</button>
+                        <button class="btn" onclick="filterObj('anclajes')">Anclajes</button>
+                        <button class="btn" onclick="filterObj('inyeccion')">Inyección</button>
+                        <button class="btn" onclick="filterObj('morteros')">Morteros de reparación</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="seccion_productos">
+
+                <div class="tarj_producto impermeabilizantes">
+                    <img src="/assets/5000.jpg" alt="5000">
+                    <div>
+                        <p>IMPERMEABILIZANTES</p>
+                        <h1>Techos 5000 TPU</h1>
+                        <p class="descripcion">Membrana líquida impermeabilizante poliuretánica de alta prestación.</p>
+                        <div class="precio">
+                            <h1>$2000</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto impermeabilizantes">
+                    <img src="/assets/acrilico.jpg" alt="acrílico">
+                    <div>
+                        <p>IMPERMEABILIZANTES</p>
+                        <h1>Techos Acrílico</h1>
+                        <p class="descripcion">Membrana líquida acrílica para techos.</p>
+                        <div class="precio">
+                            <h1>$1500</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto impermeabilizantes">
+                    <img src="/assets/acrilico-fibrado.jpg" alt="acrílico fibrado">
+                    <div>
+                        <p>IMPERMEABILIZANTES</p>
+                        <h1>Techos Acrílico Fibrado</h1>
+                        <p class="descripcion">Membrana líquida fibrada para techos.</p>
+                        <div class="precio">
+                            <h1>$5000</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto impermeabilizantes">
+                    <img src="/assets/goteras-grilla.jpg" alt="goteras">
+                    <div>
+                        <p>IMPERMEABILIZANTES</p>
+                        <h1>Protex Goteras</h1>
+                        <p class="descripcion">Selladores obturador de goteras y filtraciones.</p>
+                        <div class="precio">
+                            <h1>$2000</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto impermeabilizantes">
+                    <img src="/assets/4000-pu-techos.jpg" alt="4000">
+                    <div>
+                        <p>IMPERMEABILIZANTES</p>
+                        <h1>Techos 4000 TPU</h1>
+                        <p class="descripcion">Membrana líquida impermeabilizante elastomérica.
+                        </p>
+                        <div class="precio">
+                            <h1>$3000</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto anclajes">
+                    <img src="/assets/Grout-A-1.jpg" alt="grout A">
+                    <div>
+                        <p>ANCLAJES</p>
+                        <h1>Grout A</h1>
+                        <p class="descripcion">Grouting vertible para anclajes, rellenos y fijaciones.</p>
+                        <div class="precio">
+                            <h1>$1000</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto anclajes">
+                    <img src="/assets/fijatex-e-plus.jpg" alt="fijatex E plus">
+                    <div>
+                        <p>ANCLAJES</p>
+                        <h1>Fijatex E Plus</h1>
+                        <p class="descripcion">Anclaje químico de curado uso estructural.</p>
+                        <div class="precio">
+                            <h1>$200</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto anclajes">
+                    <img src="/assets/242-grilla.jpg" alt="Protex 242">
+                    <div>
+                        <p>ANCLAJES</p>
+                        <h1>Protex 242</h1>
+                        <p class="descripcion">Mortero epoxi vertible para anclajes.</p>
+                        <div class="precio">
+                            <h1>$500</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto anclajes">
+                    <img src="/assets/balde.jpg" alt="Five Star DP Epoxi Grout">
+                    <div>
+                        <p>ANCLAJES</p>
+                        <h1>Five Star DP</h1>
+                        <p class="descripcion">Grouting epoxi para maquinaria que requiera una alineación precisa.</p>
+                        <div class="precio">
+                            <h1>$2000</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto inyeccion">
+                    <img src="/assets/Protex-270-1.jpg" alt="Protex 270">
+                    <div>
+                        <p>INYECCIÓN</p>
+                        <h1>Protex 270</h1>
+                        <p class="descripcion">Resina epoxi vertible de baja viscosidad y pot life extendido para grietas y fisuras de hormigón.</p>
+                        <div class="precio">
+                            <h1>$2400</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto inyeccion">
+                    <img src="/assets/INTRA-YET.jpg" alt="Intra Yet">
+                    <div>
+                        <p>INYECCIÓN</p>
+                        <h1>Intra Yet</h1>
+                        <p class="descripcion">Aditivo de inyecciones expansivas.</p>
+                        <div class="precio">
+                            <h1>$900</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto morteros">
+                    <img src="/assets/fort-F.jpg" alt="Protex Fort F">
+                    <div>
+                        <p>MORTEROS DE REPARACIÓN</p>
+                        <h1>Protex Fort F</h1>
+                        <p class="descripcion">Mortero cementicio reforzado de alta resistencia.</p>
+                        <div class="precio">
+                            <h1>$2000</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarj_producto morteros">
+                    <img src="/assets/Fort-G.jpg" alt="Protex Fort G">
+                    <div>
+                        <p>MORTEROS DE REPARACIÓN</p>
+                        <h1>Protex Fort G</h1>
+                        <p class="descripcion">Mortero cementicio reforzado de alta resistencia.</p>
+                        <div class="precio">
+                            <h1>$750</h1>
+                        </div>
+                        <div class="info_producto">
+                            <a href="#">Ver ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+    
+        </div>
+        
+    </section>
+
+    <footer>
+        <h1>FOOTER</h1>
+    </footer>
+
+    <script src="/navbar.js"></script>
+    <script src="/filter.js"></script>
+    
+</body>
+</html>

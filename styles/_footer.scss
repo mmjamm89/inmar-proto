@@ -1,0 +1,21 @@
+// COLORES
+
+$color-1: #2f2d2d;
+$color-2: white;
+
+// FONT
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100;200;300;400;500;600&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+
+footer{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-1;
+    h1{
+        color:$color-2;
+        font-family: $font-1;
+    }
+}
