@@ -3,6 +3,7 @@
 $color-1: #2f2d2d;
 $color-2: #FEF6ED;
 $color-3: white;
+$color-4: #FEF2D4;
 
 // FONT
 
@@ -16,76 +17,127 @@ $font-1: 'Lexend Tera', sans-serif;
 }
 
 body{
-    background-color: $color-2;
+    background-color: $color-4;
     min-width: 500px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
 }
 
 #presentacion{
-    min-height: 700px;
-    background-color: $color-3;
+    min-height: 700px;    
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: $color-4;    
+}
+
+#desc_servicios{
+    min-height: 250px;
+    padding: 0px 60px 0px 60px;
+    background-color: $color-1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     h1{
-        color: $color-1;
-        font-family: $font-1;
+        color: $color-4;
         font-size: 4em;
+        font-family: $font-1;
+    }
+    .link_servicios{
+        height: 250px;
+        width: 300px;        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn_servicios{
+            height: 100px;
+            width: 200px;
+            background-color: $color-4;
+            color: $color-1;
+            font-family: $font-1;
+            border: none;
+            border-radius: 12px;
+            a{
+                color: $color-1;
+                list-style: none;
+                text-decoration: none;
+                font-size: 1.3em;
+            }
+        }
     }
 }
 
 #cat_productos{
-    min-height: 400px;
-    background-color: $color-1;
+    min-height: 250px;
+    padding: 0px 60px 0px 60px;
+    background-color: $color-4;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     h1{
-        color: $color-2;        
-        font-size: 4em;
+        color: $color-1;
+        font-size: 2em;
         font-family: $font-1;
+    }
+    .link_productos{
+        height: 250px;
+        width: 300px;        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            height: 100px;
+            width: 200px;
+            background-color: $color-1;            
+            font-family: $font-1;
+            border: none;
+            border-radius: 12px;
+            a{
+                color: $color-4;
+                list-style: none;
+                text-decoration: none;
+                font-size: 1.3em;
+            }
+        }
     }
 }
 
 #cotizacion{
     min-height: 200px;
-    background-color: $color-2;
+    padding: 0px 60px 0px 60px;
+    background-color: $color-1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     h1{
-        color: $color-1;
+        color: $color-4;
         font-size: 4em;
         font-family: $font-1;
+    }.link_contacto{
+        height: 250px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            height: 100px;
+            width: 200px;
+            background-color: $color-4;            
+            font-family: $font-1;
+            border: none;
+            border-radius: 12px;
+            a{
+                color: $color-1;
+                list-style: none;
+                text-decoration: none;
+                font-size: 1.3em;
+            }
+        }
     }
 }
 
 //MEDIA QUERIES
-
-@media (max-width: 1050px){
-
-}
-
-@media (max-width: 1050px){
-    *{
-    }
-    
-    body{
-        background-color: $color-2;
-        min-width: 100px;
-    }
-    
-    #presentacion{
-        h1{
-        }
-    }
-    
-    #cat_productos{
-        h1{
-        }
-    }
-    
-    #cotizacion{
-        h1{
-        }
-    }
-}
