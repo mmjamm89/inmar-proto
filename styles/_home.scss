@@ -13,11 +13,10 @@ $font-1: 'Lexend Tera', sans-serif;
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 body{
-    background-color: $color-4;
     min-width: 500px;
     -ms-overflow-style: none;
     scrollbar-width: none;

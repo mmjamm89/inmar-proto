@@ -50,7 +50,40 @@ header{
                 transition: .6s;
                 font-family: $font-1;
                 font-size: 1em;
-                text-transform: uppercase;                
+                text-transform: uppercase;
+                padding: 2px;
+                &:after,
+                    &:before{
+                        content: "";
+                        position: absolute;
+                        display: block;
+                        border: 0px solid transparent;
+                        width: 0%;
+                        height: 0%;
+                        transition: all 0.8s ease;
+                    }
+                    &:after{
+                        width: 0%;
+                        height: 0%;
+                        top: 0;
+                        left: 0;
+                        border-top: 1px solid transparent;
+                        border-left: 1px solid transparent;                        
+                    }
+                    &:before{
+                        width: 0%;
+                        height: 0%;
+                        right: 0;
+                        bottom: 0;
+                        border-bottom: 1px solid transparent;
+                        border-right: 1px solid transparent;
+                    }
+                    &:hover::after,
+                    &:hover::before{
+                        width: 80%;
+                        height: 50%;                        
+                        border-color: $color-1;                        
+                    }
             }
         }
     }    

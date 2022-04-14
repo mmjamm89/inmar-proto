@@ -70,6 +70,42 @@ header ul li a {
   font-family: "Lexend Tera", sans-serif;
   font-size: 1em;
   text-transform: uppercase;
+  padding: 2px;
+}
+
+header ul li a:after, header ul li a:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px solid transparent;
+  width: 0%;
+  height: 0%;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+header ul li a:after {
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+
+header ul li a:before {
+  width: 0%;
+  height: 0%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+header ul li a:hover::after, header ul li a:hover::before {
+  width: 80%;
+  height: 50%;
+  border-color: #2f2d2d;
 }
 
 header.sticky {
@@ -171,7 +207,6 @@ footer #footer_logo {
 }
 
 body {
-  background-color: #FEF2D4;
   min-width: 500px;
   -ms-overflow-style: none;
   scrollbar-width: none;
