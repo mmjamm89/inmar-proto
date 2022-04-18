@@ -20,6 +20,10 @@ body{
     min-width: 500px;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    background-color: $color-4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     &::-webkit-scrollbar{
         display: none;
     }
