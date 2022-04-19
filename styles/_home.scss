@@ -45,30 +45,48 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    h1{
-        color: $color-4;
-        font-size: 4em;
-        font-family: $font-1;
+    .titulo{
+        h1{
+            color: $color-4;
+            font-size: 4em;
+            font-family: $font-1;
+        }
+        h3{
+            font-family: $font-1;
+            font-size: 1em;
+            color: $color-4;
+        }
     }
+    
     .link_servicios{
         height: 250px;
         width: 300px;        
         display: flex;
         align-items: center;
         justify-content: center;
-        .btn_servicios{
-            height: 100px;
-            width: 200px;
-            background-color: $color-4;
-            color: $color-1;
-            font-family: $font-1;
-            border: none;
-            border-radius: 12px;
-            a{
+        a{
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            .btn_servicios{
+                cursor: pointer;
+                height: 100px;
+                width: 200px;
+                background-color: $color-4;
+                color: $color-1;
+                font-family: $font-1;
+                border: none;
+                border-radius: 12px;
                 color: $color-1;
                 list-style: none;
                 text-decoration: none;
-                font-size: 1.3em;
+                font-size: 1.1em;
+                transition: .2s;
+                &:hover{
+                    color: $color-4;
+                    border: 2px solid $color-4;
+                    background-color: $color-1;
+                }
             }
         }
     }
@@ -92,18 +110,25 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        button{
-            height: 100px;
-            width: 200px;
-            background-color: $color-1;            
-            font-family: $font-1;
-            border: none;
-            border-radius: 12px;
-            a{
+        a{
+            .btn_productos{
+                cursor: pointer;
+                height: 100px;
+                width: 200px;
+                background-color: $color-1;            
+                font-family: $font-1;
+                border: none;
+                border-radius: 12px;
                 color: $color-4;
                 list-style: none;
                 text-decoration: none;
-                font-size: 1.3em;
+                font-size: 1.1em;
+                transition: .2s;
+                &:hover{
+                    color: $color-1;
+                    border: 2px solid $color-1;
+                    background-color: $color-4;
+                }
             }
         }
     }
@@ -116,30 +141,46 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    h1{
-        color: $color-4;
-        font-size: 4em;
-        font-family: $font-1;
-    }.link_contacto{
+    .titulo{
+        h1{
+            color: $color-4;
+            font-size: 4em;
+            font-family: $font-1;
+        }
+        h3{
+            color: $color-4;
+            font-size: 1em;
+            font-family: $font-1;
+        }
+    }
+
+    .link_contacto{
         height: 250px;
         width: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
-        button{
-            height: 100px;
-            width: 200px;
-            background-color: $color-4;            
-            font-family: $font-1;
-            border: none;
-            border-radius: 12px;
-            a{
+        a{
+            .btn_contacto{
+                cursor: pointer;
+                height: 100px;
+                width: 200px;
+                background-color: $color-4;            
+                font-family: $font-1;
+                border: none;
+                border-radius: 12px;
                 color: $color-1;
                 list-style: none;
                 text-decoration: none;
-                font-size: 1.3em;
+                font-size: 1.1em;
+                transition: 0.2s;
+                &:hover{
+                    color: $color-4;
+                    border: 2px solid $color-4;
+                    background-color: $color-1;
+                }
             }
-        }
+        } 
     }
 }
 

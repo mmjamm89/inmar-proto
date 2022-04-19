@@ -13,7 +13,7 @@ $font-1: 'Lexend Tera', sans-serif;
 $font-2: 'IBM Plex Sans Arabic', sans-serif;
 
 footer{
-    min-height: 200px;  
+    min-height: 150px;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,11 +32,11 @@ footer{
         color: $color-3;
         font-size: .6em;
         font-weight: 100;
-        height: 200px;
+        height: 150px;
         width: 400px;
     }
     #footer_logo{
-        height: 200px;
+        height: 150px;
         display: flex;
         align-items: center;        
     }

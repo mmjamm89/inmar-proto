@@ -149,7 +149,7 @@ header.sticky a #logo {
 }
 
 footer {
-  min-height: 200px;
+  min-height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,12 +185,12 @@ footer #footer_contacto {
   color: #FEF2D4;
   font-size: .6em;
   font-weight: 100;
-  height: 200px;
+  height: 150px;
   width: 400px;
 }
 
 footer #footer_logo {
-  height: 200px;
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,10 +256,16 @@ body::-webkit-scrollbar {
           justify-content: space-between;
 }
 
-#desc_servicios h1 {
+#desc_servicios .titulo h1 {
   color: #FEF2D4;
   font-size: 4em;
   font-family: "Lexend Tera", sans-serif;
+}
+
+#desc_servicios .titulo h3 {
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 1em;
+  color: #FEF2D4;
 }
 
 #desc_servicios .link_servicios {
@@ -276,7 +282,14 @@ body::-webkit-scrollbar {
           justify-content: center;
 }
 
-#desc_servicios .link_servicios .btn_servicios {
+#desc_servicios .link_servicios a {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+#desc_servicios .link_servicios a .btn_servicios {
+  cursor: pointer;
   height: 100px;
   width: 200px;
   background-color: #FEF2D4;
@@ -284,13 +297,18 @@ body::-webkit-scrollbar {
   font-family: "Lexend Tera", sans-serif;
   border: none;
   border-radius: 12px;
-}
-
-#desc_servicios .link_servicios .btn_servicios a {
   color: #2f2d2d;
   list-style: none;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#desc_servicios .link_servicios a .btn_servicios:hover {
+  color: #FEF2D4;
+  border: 2px solid #FEF2D4;
+  background-color: #2f2d2d;
 }
 
 #cat_productos {
@@ -328,20 +346,26 @@ body::-webkit-scrollbar {
           justify-content: center;
 }
 
-#cat_productos .link_productos button {
+#cat_productos .link_productos a .btn_productos {
+  cursor: pointer;
   height: 100px;
   width: 200px;
   background-color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   border: none;
   border-radius: 12px;
-}
-
-#cat_productos .link_productos button a {
   color: #FEF2D4;
   list-style: none;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#cat_productos .link_productos a .btn_productos:hover {
+  color: #2f2d2d;
+  border: 2px solid #2f2d2d;
+  background-color: #FEF2D4;
 }
 
 #cotizacion {
@@ -359,9 +383,15 @@ body::-webkit-scrollbar {
           justify-content: space-between;
 }
 
-#cotizacion h1 {
+#cotizacion .titulo h1 {
   color: #FEF2D4;
   font-size: 4em;
+  font-family: "Lexend Tera", sans-serif;
+}
+
+#cotizacion .titulo h3 {
+  color: #FEF2D4;
+  font-size: 1em;
   font-family: "Lexend Tera", sans-serif;
 }
 
@@ -379,20 +409,26 @@ body::-webkit-scrollbar {
           justify-content: center;
 }
 
-#cotizacion .link_contacto button {
+#cotizacion .link_contacto a .btn_contacto {
+  cursor: pointer;
   height: 100px;
   width: 200px;
   background-color: #FEF2D4;
   font-family: "Lexend Tera", sans-serif;
   border: none;
   border-radius: 12px;
-}
-
-#cotizacion .link_contacto button a {
   color: #2f2d2d;
   list-style: none;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#cotizacion .link_contacto a .btn_contacto:hover {
+  color: #FEF2D4;
+  border: 2px solid #FEF2D4;
+  background-color: #2f2d2d;
 }
 
 #banner {
@@ -690,7 +726,7 @@ body::-webkit-scrollbar {
 }
 
 #contacto {
-  height: 100vh;
+  height: 85vh;
   min-height: 700px;
   background-color: #2f2d2d;
   display: -webkit-box;
@@ -706,7 +742,7 @@ body::-webkit-scrollbar {
 
 #contacto .contacto {
   width: 1200px;
-  height: 800px;
+  height: 600px;
   margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
