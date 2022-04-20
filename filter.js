@@ -143,6 +143,9 @@ const productos = [
 
 ];
 
+
+//FILTER
+
 const catalogo = document.querySelector('.catalogo');
 const botones = document.querySelector('.btn_container');
 

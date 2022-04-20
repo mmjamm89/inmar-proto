@@ -153,3 +153,80 @@
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background-color: #2f2d2d;
 }
+
+@media screen and (max-width: 1350px) {
+    .slide_1 h1{
+        font-size: 3em;
+    }
+    
+    .slide_1 img{
+        width: 700px;
+    }
+
+    .slide_2 h1{
+        font-size: 3em;
+    }
+    
+    .slide_2 img{
+        width: 300px;
+    }
+
+    .slide_3 h1{        
+        font-size: 3em;
+    }
+    
+    .slide_3 img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .slide_1 h1{
+        font-size: 2em;
+    }
+    
+    .slide_1 img{
+        width: 500px;
+    }
+
+    .slide_2 h1{
+        font-size: 2em;
+    }
+    
+    .slide_2 img{
+        width: 300px;
+    }
+
+    .slide_3 h1{
+        font-size: 2em;
+    }
+    
+    .slide_3 img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .slide_1 h1{
+        font-size: 1.4em;
+    }
+    
+    .slide_1 img{
+        width: 400px;
+    }
+
+    .slide_2 h1{
+        font-size: 1.4em;
+    }
+    
+    .slide_2 img{
+        width: 250px;
+    }
+
+    .slide_3 h1{
+        font-size: 1.5em;
+    }
+    
+    .slide_3 img{
+        width: 200px;
+    }
+}   

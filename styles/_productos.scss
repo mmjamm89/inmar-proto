@@ -13,6 +13,12 @@ $font-1: 'Lexend Tera', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300&display=swap');
 $font-2: 'IBM Plex Sans Arabic', sans-serif;
 
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+$font-3: 'Akshar', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+$font-4: 'Questrial', sans-serif;
+
 //STYLES
 
 #banner{
@@ -43,13 +49,12 @@ $font-2: 'IBM Plex Sans Arabic', sans-serif;
             display: flex;
             flex-direction: column;
             .filter_btn{
-                font-family: $font-2;
                 background-color: $color-4;
                 padding-left: 5px;
                 margin: 5px;
                 height: 25px;
                 width: 250px;
-                font-family: $font-2;
+                font-family: $font-4;
                 font-weight: 300;
                 font-size: 1em;
                 text-align: left;
