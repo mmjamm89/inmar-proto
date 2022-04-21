@@ -1080,4 +1080,55 @@ body::-webkit-scrollbar-thumb {
   color: #2f2d2d;
   font-size: 2em;
 }
+
+@media screen and (max-width: 1230px) {
+  #contacto .contacto .mapa {
+    display: none;
+  }
+  #contacto .contacto .info {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  #contacto .contacto .mapa {
+    display: none;
+  }
+  #contacto .contacto .info {
+    width: 75%;
+  }
+  #contacto .contacto .info .redes_sociales {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  #contacto .contacto .mapa {
+    display: none;
+  }
+  #contacto .contacto .info {
+    width: 75%;
+  }
+  #contacto .contacto .info h1 {
+    font-size: 1em;
+  }
+  #contacto .contacto .info .redes_sociales {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  #contacto .contacto .mapa {
+    display: none;
+  }
+  #contacto .contacto .info {
+    width: 75%;
+  }
+  #contacto .contacto .info h1 {
+    font-size: .8em;
+  }
+  #contacto .contacto .info .redes_sociales {
+    width: 40%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

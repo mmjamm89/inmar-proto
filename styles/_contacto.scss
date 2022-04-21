@@ -68,3 +68,121 @@ $font-1: 'Lexend Tera', sans-serif;
         }
     }
 }
+
+@media screen and (max-width: 1230px) {
+    #contacto{        
+        .contacto{
+            .mapa{
+                display: none;
+                .mapouter{                    
+                    .gmap_canvas{                        
+                        #gmap_canvas{                            
+                            iframe{                                
+                            }
+                        }
+                    }
+                }
+            }
+            .info{
+                width: 75%;
+                .redes_sociales{                
+                    a{
+                        i{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #contacto{        
+        .contacto{
+            .mapa{
+                display: none;
+                .mapouter{                    
+                    .gmap_canvas{                        
+                        #gmap_canvas{                            
+                            iframe{                                
+                            }
+                        }
+                    }
+                }
+            }
+            .info{
+                width: 75%;
+                .redes_sociales{
+                    width: 25%;
+                    a{
+                        i{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 715px) {
+    #contacto{        
+        .contacto{
+            .mapa{
+                display: none;
+                .mapouter{                    
+                    .gmap_canvas{                        
+                        #gmap_canvas{                            
+                            iframe{                                
+                            }
+                        }
+                    }
+                }
+            }
+            .info{
+                width: 75%;
+                h1{
+                    font-size: 1em;
+                }
+                .redes_sociales{
+                    width: 40%;
+                    a{
+                        i{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 525px) {
+    #contacto{        
+        .contacto{
+            .mapa{
+                display: none;
+                .mapouter{                    
+                    .gmap_canvas{                        
+                        #gmap_canvas{                            
+                            iframe{                                
+                            }
+                        }
+                    }
+                }
+            }
+            .info{
+                width: 75%;
+                h1{
+                    font-size: .8em;
+                }
+                .redes_sociales{
+                    width: 40%;
+                    a{
+                        i{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
