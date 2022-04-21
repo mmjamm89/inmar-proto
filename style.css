@@ -32,6 +32,74 @@ header {
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(0, 0, 0, 0.1);
 }
 
+header .menu_btn {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80px;
+  height: 100%;
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  display: none;
+}
+
+header .menu_btn .menu_btn__burger {
+  width: 40px;
+  height: 6px;
+  background: #2f2d2d;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+header .menu_btn .menu_btn__burger::before,
+header .menu_btn .menu_btn__burger::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 6px;
+  background: #2f2d2d;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+header .menu_btn .menu_btn__burger::before {
+  -webkit-transform: translateY(-16px);
+          transform: translateY(-16px);
+}
+
+header .menu_btn .menu_btn__burger::after {
+  -webkit-transform: translateY(16px);
+          transform: translateY(16px);
+}
+
+header .menu_btn .menu_btn.open .menu_btn__burger {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .menu_btn .menu_btn.open .menu_btn__burger::before {
+  -webkit-transform: rotate(45deg) translate(35px, -35px);
+          transform: rotate(45deg) translate(35px, -35px);
+}
+
+header .menu_btn .menu_btn.open .menu_btn__burger::after {
+  -webkit-transform: rotate(-45deg) translate(35px, 35px);
+          transform: rotate(-45deg) translate(35px, 35px);
+}
+
 header a {
   position: relative;
   -webkit-transition: .6s;
@@ -73,6 +141,19 @@ header ul li a {
   font-size: 1em;
   text-transform: uppercase;
   padding: 2px;
+}
+
+header ul li a:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 5%;
+  background: #FEF2D4;
+  border-radius: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 header ul li a:after, header ul li a:before {
@@ -138,12 +219,70 @@ header.sticky a #logo {
   header a #logo {
     width: 10em;
   }
-  header ul {
+  header .menu_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  header .nav_links {
     display: none;
   }
-  header ul li a {
-    margin: 0 15px;
-    font-size: .8em;
+  header .nav_links.show {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-top: 75px;
+    height: 100vh;
+    z-index: 99;
+    background-color: #FEF2D4;
+    padding-bottom: 100px;
+  }
+  header .nav_links.show li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .nav_links.show li a {
+    margin-left: 0;
+    margin: 30px;
+    font-size: 3em;
+  }
+  header .nav_links.show li a:after, header .nav_links.show li a:before {
+    display: none;
+  }
+  header .nav_links.show li a:after {
+    display: none;
+  }
+  header .nav_links.show li a:before {
+    display: none;
+  }
+  header .nav_links.show li a:hover::after, header .nav_links.show li a:hover::before {
+    display: none;
   }
   header.sticky a #logo {
     width: 10em;
