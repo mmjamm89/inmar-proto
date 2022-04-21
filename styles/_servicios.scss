@@ -41,7 +41,7 @@ $font-1: 'Lexend Tera', sans-serif;
             justify-content: center;
             p{
                 font-family: $font-1;
-                font-size: 0.9em;
+                font-size: 1em;
                 text-align: justify;
                 text-justify: inter-word;
             }
@@ -83,10 +83,113 @@ $font-1: 'Lexend Tera', sans-serif;
             justify-content: center;
             p{
                 font-family: $font-1;
-                font-size: .9em;
+                font-size: 1em;
                 text-justify: inter-word;
                 text-align: justify;
                 text-justify: inter-word;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    #servicios{
+        width: 100%;
+        min-height: 1320px;        
+        .servicios{
+            justify-content: center;
+            align-items: center;
+            h1{
+                width: 400px;
+                text-align: center;
+                font-size: 2em;
+                
+            }
+        }
+        .servicio_1{
+            height: 700px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .descripcion_1{                
+                p{
+                    font-size: .7em;
+                }
+            }
+            .imagen_1{                
+                img{                    
+                }         
+            }
+        }
+        .servicio_2{
+            height: 700px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .imagen_2{                
+                img{                    
+                }         
+            }
+            .descripcion_2{                
+                p{
+                    font-size: .7em;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #servicios{
+        width: 100%;
+        min-height: 1320px;
+        .servicios{
+            justify-content: center;
+            align-items: center;
+            h1{
+                width: 400px;
+                text-align: center;
+                font-size: 2em;
+                
+            }
+        }
+        .servicio_1{
+            height: 500px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .descripcion_1{
+                height: 250px;
+                width: 400px;
+                p{                    
+                    font-size: .6em;
+                }
+            }
+            .imagen_1{
+                width: 100%;             
+                img{
+                    width: 380px;                    
+                }         
+            }
+        }
+        .servicio_2{
+            height: 500px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .imagen_2{
+                width: 100%;
+                img{
+                    width: 380px;
+                }         
+            }
+            .descripcion_2{
+                height: 250px;
+                width: 400px;
+                p{
+                    font-size: .6em;
+                }
             }
         }
     }

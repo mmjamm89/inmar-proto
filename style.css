@@ -788,7 +788,7 @@ body::-webkit-scrollbar-thumb {
 
 #servicios .servicio_1 .descripcion_1 p {
   font-family: "Lexend Tera", sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -857,10 +857,134 @@ body::-webkit-scrollbar-thumb {
 
 #servicios .servicio_2 .descripcion_2 p {
   font-family: "Lexend Tera", sans-serif;
-  font-size: .9em;
+  font-size: 1em;
   text-justify: inter-word;
   text-align: justify;
   text-justify: inter-word;
+}
+
+@media screen and (max-width: 1220px) {
+  #servicios {
+    width: 100%;
+    min-height: 1320px;
+  }
+  #servicios .servicios {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #servicios .servicios h1 {
+    width: 400px;
+    text-align: center;
+    font-size: 2em;
+  }
+  #servicios .servicio_1 {
+    height: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #servicios .servicio_1 .descripcion_1 p {
+    font-size: .7em;
+  }
+  #servicios .servicio_2 {
+    height: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #servicios .servicio_2 .descripcion_2 p {
+    font-size: .7em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #servicios {
+    width: 100%;
+    min-height: 1320px;
+  }
+  #servicios .servicios {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #servicios .servicios h1 {
+    width: 400px;
+    text-align: center;
+    font-size: 2em;
+  }
+  #servicios .servicio_1 {
+    height: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #servicios .servicio_1 .descripcion_1 {
+    height: 250px;
+    width: 400px;
+  }
+  #servicios .servicio_1 .descripcion_1 p {
+    font-size: .6em;
+  }
+  #servicios .servicio_1 .imagen_1 {
+    width: 100%;
+  }
+  #servicios .servicio_1 .imagen_1 img {
+    width: 380px;
+  }
+  #servicios .servicio_2 {
+    height: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #servicios .servicio_2 .imagen_2 {
+    width: 100%;
+  }
+  #servicios .servicio_2 .imagen_2 img {
+    width: 380px;
+  }
+  #servicios .servicio_2 .descripcion_2 {
+    height: 250px;
+    width: 400px;
+  }
+  #servicios .servicio_2 .descripcion_2 p {
+    font-size: .6em;
+  }
 }
 
 #contacto {
