@@ -36,6 +36,7 @@
 }
 
 .slide_1 h1{
+    text-align: center;
     font-family: var(--main-font-1);
     font-size: 4em;
     text-transform: uppercase;
@@ -57,6 +58,7 @@
     transition: .2s;
 }
 .slide_2 h1{
+    text-align: center;
     font-family: var(--main-font-1);
     font-size: 4em;
     text-transform: uppercase;
@@ -78,6 +80,7 @@
 }
 
 .slide_3 h1{
+    text-align: center;
     font-family: var(--main-font-1);
     font-size: 4em;
     text-transform: uppercase;
