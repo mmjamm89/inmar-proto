@@ -98,17 +98,6 @@ header{
                 font-size: 1em;
                 text-transform: uppercase;
                 padding: 2px;
-                &:after{
-                    position: absolute;
-                    content: "";
-                    left:0;
-                    bottom: 0;
-                    width: 0;
-                    height: 5%;
-                    background: $color-3;
-                    border-radius: 10px;
-                    transition: all .3s ease;
-                }
                 //LINKS HOVER
                 &:after,
                 &:before{

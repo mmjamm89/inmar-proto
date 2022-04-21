@@ -143,19 +143,6 @@ header ul li a {
   padding: 2px;
 }
 
-header ul li a:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 5%;
-  background: #FEF2D4;
-  border-radius: 10px;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
 header ul li a:after, header ul li a:before {
   content: "";
   position: absolute;
