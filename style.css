@@ -882,159 +882,44 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-#banner {
-  width: 100%;
-  height: 150px;
-  min-width: 1200px;
-  background-color: #2f2d2d;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 2em;
-  color: #FEF2D4;
-  font-family: "Lexend Tera", sans-serif;
-  margin-top: 100px;
-}
-
 #productos {
   width: 100%;
   min-height: 800px;
-  min-width: 1200px;
   background-color: #FEF2D4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#productos .filtro {
-  margin: 20px;
-}
-
-#productos .filtro .btn_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#productos .filtro .btn_container .filter_btn {
-  background-color: #FEF2D4;
-  padding-left: 5px;
-  margin: 5px;
-  height: 25px;
-  width: 250px;
-  font-family: "Questrial", sans-serif;
-  font-weight: 300;
-  font-size: 1em;
-  text-align: left;
-  cursor: pointer;
-  border: none;
-  border-radius: 8px;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(0, 0, 0, 0.1);
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
-#productos .filtro .btn_container .filter_btn:hover {
-  background-color: #2f2d2d;
-  color: #FEF6ED;
-}
-
-#productos .filtro .btn_container .filter_btn:focus {
-  background-color: #2f2d2d;
-  color: #FEF6ED;
-}
-
-#productos .catalogo {
-  width: 60%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-}
-
-#productos .catalogo .tarj_producto {
-  width: 250px;
-  height: 350px;
-  background-color: #FEF2D4;
-  border-radius: 16px;
-  margin: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px;
-  font-family: "IBM Plex Sans Arabic", sans-serif;
-  color: #2f2d2d;
-  -webkit-transition: .3s;
-  transition: .3s;
-  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1), 0px 0px 6px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1), 0px 0px 6px rgba(0, 0, 0, 0.1);
 }
 
-#productos .catalogo .tarj_producto:hover {
-  -webkit-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1), -4px -4px 16px rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1), -4px -4px 16px rgba(0, 0, 0, 0.1);
-  -webkit-transition: .3s;
-  transition: .3s;
+#productos .banner {
+  width: 100%;
+  height: 300px;
+  background-color: #2f2d2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1em;
+  color: #FEF2D4;
+  font-family: "Lexend Tera", sans-serif;
 }
 
-#productos .catalogo .tarj_producto img {
-  width: 150px;
-}
-
-#productos .catalogo .tarj_producto p {
-  font-size: 0.8em;
-  font-weight: 300;
-}
-
-#productos .catalogo .tarj_producto h1 {
-  font-size: 1.2em;
-}
-
-#productos .catalogo .tarj_producto .descripcion {
-  font-size: 0.8em;
-  font-weight: 300;
-  height: 64px;
-}
-
-#productos .catalogo .tarj_producto .precio {
-  margin: 10px 0px 10px 0px;
-}
-
-#productos .catalogo .tarj_producto .info_producto {
-  margin: 10px 0px 10px 0px;
-}
-
-#productos .catalogo .tarj_producto .info_producto a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #2f2d2d;
+@media screen and (max-width: 600px) {
+  #productos .banner h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
 }
 
 #servicios {
