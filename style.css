@@ -807,7 +807,7 @@ body::-webkit-scrollbar-thumb {
   #cat_productos .link_productos a .btn_productos {
     height: 75px;
     width: 125px;
-    font-size: .8em;
+    font-size: .7em;
   }
   #cotizacion .titulo {
     max-width: 428px;
@@ -1283,7 +1283,7 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 600px) {
   #servicios {
     width: 100%;
-    min-height: 1320px;
+    min-height: 1000px;
   }
   #servicios .servicios {
     -webkit-box-pack: center;
@@ -1368,7 +1368,7 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 450px) {
   #servicios {
     width: 100%;
-    min-height: 1320px;
+    min-height: 600px;
   }
   #servicios .servicios {
     -webkit-box-pack: center;
@@ -1447,6 +1447,180 @@ body::-webkit-scrollbar-thumb {
   }
   #servicios .penta #logo_penta {
     width: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #servicios {
+    width: 100%;
+    min-height: 600px;
+  }
+  #servicios .servicios {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #servicios .servicios h1 {
+    width: 350px;
+    text-align: center;
+    font-size: 1.6em;
+  }
+  #servicios .servicio_1 {
+    height: 400px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10px;
+  }
+  #servicios .servicio_1 .descripcion_1 {
+    height: 250px;
+    width: 380px;
+  }
+  #servicios .servicio_1 .descripcion_1 p {
+    font-size: .5em;
+  }
+  #servicios .servicio_1 .imagen_1 {
+    width: 100%;
+  }
+  #servicios .servicio_1 .imagen_1 img {
+    width: 350px;
+  }
+  #servicios .servicio_2 {
+    height: 400px;
+    width: 350px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #servicios .servicio_2 .imagen_2 {
+    width: 100%;
+  }
+  #servicios .servicio_2 .imagen_2 img {
+    width: 350px;
+  }
+  #servicios .servicio_2 .descripcion_2 {
+    height: 250px;
+    width: 380px;
+  }
+  #servicios .servicio_2 .descripcion_2 p {
+    font-size: .5em;
+  }
+  #servicios .penta {
+    width: 350px;
+    height: 150px;
+  }
+  #servicios .penta .link_penta p {
+    font-size: .4em;
+  }
+  #servicios .penta .link_penta a {
+    font-size: .7em;
+  }
+  #servicios .penta #logo_penta {
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #servicios {
+    width: 100%;
+    min-height: 600px;
+  }
+  #servicios .servicios {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #servicios .servicios h1 {
+    width: 300px;
+    text-align: center;
+    font-size: 1.6em;
+  }
+  #servicios .servicio_1 {
+    height: 400px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10px;
+  }
+  #servicios .servicio_1 .descripcion_1 {
+    height: 250px;
+    width: 300px;
+  }
+  #servicios .servicio_1 .descripcion_1 p {
+    font-size: .5em;
+  }
+  #servicios .servicio_1 .imagen_1 {
+    width: 100%;
+  }
+  #servicios .servicio_1 .imagen_1 img {
+    width: 300px;
+  }
+  #servicios .servicio_2 {
+    height: 400px;
+    width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #servicios .servicio_2 .imagen_2 {
+    width: 100%;
+  }
+  #servicios .servicio_2 .imagen_2 img {
+    width: 300px;
+  }
+  #servicios .servicio_2 .descripcion_2 {
+    height: 250px;
+    width: 300px;
+  }
+  #servicios .servicio_2 .descripcion_2 p {
+    font-size: .5em;
+  }
+  #servicios .penta {
+    width: 300px;
+    height: 150px;
+  }
+  #servicios .penta .link_penta p {
+    font-size: .4em;
+  }
+  #servicios .penta .link_penta a {
+    font-size: .7em;
+  }
+  #servicios .penta #logo_penta {
+    width: 75px;
   }
 }
 
