@@ -52,3 +52,17 @@ footer{
         }
     }
 }
+
+@media screen and (max-width: 450px) {
+    footer{
+        padding: 0 20px 0 20px;        
+        #footer_contacto{
+            font-size: .4em;
+        }
+        #footer_logo{
+            svg {
+                width: 100px;
+            }
+        }
+    }
+}

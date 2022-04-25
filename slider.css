@@ -232,4 +232,56 @@
     .slide_3 img{
         width: 200px;
     }
+}
+
+@media screen and (max-width: 450px) {
+    .slide_1 h1{
+        font-size: 1.3em;
+    }
+    
+    .slide_1 img{
+        width: 300px;
+    }
+
+    .slide_2 h1{
+        font-size: 1.3em;
+    }
+    
+    .slide_2 img{
+        width: 250px;
+    }
+
+    .slide_3 h1{
+        font-size: 1.3em;
+    }
+    
+    .slide_3 img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .slide_1 h1{
+        font-size: 1em;
+    }
+    
+    .slide_1 img{
+        width: 250px;
+    }
+
+    .slide_2 h1{
+        font-size: 1em;
+    }
+    
+    .slide_2 img{
+        width: 200px;
+    }
+
+    .slide_3 h1{
+        font-size: 1em;
+    }
+    
+    .slide_3 img{
+        width: 200px;
+    }
 }   

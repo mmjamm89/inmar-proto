@@ -431,3 +431,134 @@ body{
         }
     }    
 }
+
+@media screen and (max-width: 450px) {
+    #presentacion{
+    }
+    #desc_servicios{        
+        .titulo{
+            max-width: 428px;
+            h1{
+                font-size: 1em;
+            }
+            h3{
+                display: none;
+            }
+        }        
+        .link_servicios{
+            a{
+                .btn_servicios{
+                    height: 75px;
+                    width: 125px;
+                    font-size: .8em;
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }    
+    #cat_productos{
+        h1{            
+            font-size: .5em;
+            max-width: 428px;
+        }
+        .link_productos{
+            a{
+                .btn_productos{
+                    height: 75px;
+                    width: 125px;
+                    font-size: .8em;
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }    
+    #cotizacion{
+        .titulo{
+            max-width: 428px;
+            h1{
+                font-size: 1em;
+            }
+            h3{
+                display: none;
+            }
+        }    
+        .link_contacto{
+            a{
+                .btn_contacto{
+                    height: 75px;
+                    width: 125px;
+                    font-size: .8em;
+                    &:hover{
+                    }
+                }
+            } 
+        }
+    }    
+}
+
+@media screen and (max-width: 350px) {
+    #presentacion{
+    }
+    #desc_servicios{
+        align-items: center;
+        justify-content: center;
+        .titulo{
+            max-width: 428px;
+            h1{
+                display: none;
+            }
+            h3{
+                display: none;
+            }
+        }        
+        .link_servicios{
+            a{
+                .btn_servicios{
+                    width: 200px;
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }    
+    #cat_productos{
+        align-items: center;
+        justify-content: center;
+        h1{            
+            display: none;
+        }
+        .link_productos{
+            a{
+                .btn_productos{
+                    width: 200px;
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }    
+    #cotizacion{
+        align-items: center;
+        justify-content: center;
+        .titulo{
+            max-width: 428px;
+            h1{
+                display: none;
+            }
+            h3{
+                display: none;
+            }
+        }    
+        .link_contacto{
+            a{
+                .btn_contacto{
+                    width: 200px;
+                    &:hover{
+                    }
+                }
+            } 
+        }
+    }    
+}
