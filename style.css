@@ -331,7 +331,7 @@ header.sticky a #logo {
   header .nav_links.show li a {
     margin-left: 0;
     margin: 30px;
-    font-size: 3em;
+    font-size: 2em;
   }
   header .nav_links.show li a:after, header .nav_links.show li a:before {
     display: none;
