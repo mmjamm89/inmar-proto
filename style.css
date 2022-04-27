@@ -955,6 +955,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #servicios .servicios h1 {
+  margin-top: 20px;
   color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 3em;
